@@ -1,0 +1,222 @@
+@font-face {
+  font-family: DIN-font;
+  src: url("../fonts/din-next-lt-w23-regular.ttf");
+}
+
+body {
+  font-family: DIN-font;
+  font-size: 90%;
+}
+
+.headerImgBackground {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/primaryBackground.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+/* .active .nav-item {
+} */
+
+.headerContent {
+  margin-top: 2.5rem;
+}
+
+.header-text {
+  color: #fff;
+}
+
+.navbar {
+  padding: 0.5rem 0rem !important;
+  margin-right: -1rem !important;
+}
+
+.headerBtn {
+  background-color: #fff !important;
+  border-radius: 50px !important;
+  color: #2364d8 !important;
+  width: 9em;
+  margin-top: 1em;
+  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.28);
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+button:focus {
+  outline: 1px dotted !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link::after {
+  content: "";
+  width: 39.65px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+
+.navbar-nav .sm-header-link {
+  background-color: black !important;
+}
+
+.divImageHeader {
+  position: relative;
+}
+
+.imageHeader {
+  height: 65vh;
+  animation: animateUpDown 3.2s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 4em;
+  padding: 0 15px;
+}
+
+.nav-item{
+    margin: 0 5px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .headerImgBackground {
+        height: 160vh;
+    }
+    .navbar-expand-lg .navbar-collapse {
+    background-color: #fff !important;
+    color: #000 !important;
+    position: absolute;
+    z-index: 1;
+    top: 9em;
+    left: -15px;
+    right: 0;
+  }
+
+  .nav-link {
+    color: #000 !important;
+    text-align: center;
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link::after {
+    content: "";
+    width: 39.65px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar-expand-lg .navbar-collapse {
+        background-color: #fff !important;
+        color: #000 !important;
+        position: absolute;
+        z-index: 1;
+        top: 9em;
+        left: -15px;
+        right: 0;
+      }
+  .nav-link {
+    color: #000 !important;
+    text-align: center;
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link::after {
+    content: "";
+    width: 39.65px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+  }
+
+  .headerImgBackground {
+    height: 130vh;
+}   
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .headerImgBackground {
+        height: 100vh;
+    }
+  .navbar-expand-lg .navbar-collapse {
+    background-color: transparent !important;
+    position: relative;
+    width: 100%;
+    top: 0em;
+  }
+  .nav-link {
+    color: #fff !important;
+    text-align: center;
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link::after {
+    content: "";
+    width: 39.65px;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@-webkit-keyframes animateUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes animateUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

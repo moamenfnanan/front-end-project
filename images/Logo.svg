@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164.197" height="57.042" viewBox="0 0 164.197 57.042">
+  <g id="Logo" transform="translate(-1102.803 727)">
+    <g id="logo-simple" transform="translate(1102.803 -726.999)">
+      <path id="Path_7256" data-name="Path 7256" d="M209.4,426.1v40.882h-1.709a9.234,9.234,0,0,1-9.455-9V437.265A11.164,11.164,0,0,1,209.4,426.1Z" transform="translate(-198.234 -409.942)" fill="#fff"/>
+      <rect id="Rectangle_1860" data-name="Rectangle 1860" width="11.164" height="40.882" rx="3.826" transform="translate(13.329 16.158)" fill="#fff"/>
+      <path id="Path_7257" data-name="Path 7257" d="M209.344,277.21h.056a11.108,11.108,0,0,1-11.108,11.108h-.056A11.108,11.108,0,0,1,209.344,277.21Z" transform="translate(-198.234 -277.21)" fill="#fff"/>
+      <g id="Group_1515" data-name="Group 1515" transform="translate(11.164 -0.001)">
+        <path id="Path_7258" data-name="Path 7258" d="M321.041,700.357l11.164,0V711.47H321.041Z" transform="translate(-318.876 -654.429)" fill="#fff"/>
+        <path id="Path_7259" data-name="Path 7259" d="M364.12,305.737a28.524,28.524,0,0,1-27.18,28.495l-.395.019h-20.1a11.123,11.123,0,0,1,11.118-11.123h.046l8.661,0,.144-.007a17.4,17.4,0,1,0-.82-34.787l-23.366,0A11.126,11.126,0,0,1,301.1,277.209h34.49a28.52,28.52,0,0,1,28.53,28.527Z" transform="translate(-301.1 -277.209)" fill="#fff"/>
+      </g>
+      <path id="Path_7260" data-name="Path 7260" d="M453.649,437.263v18.554a11.164,11.164,0,0,1-11.164,11.164h0V426.1h0A11.164,11.164,0,0,1,453.649,437.263Z" transform="translate(-415.976 -409.94)" fill="#fff"/>
+    </g>
+    <g id="Group_57573" data-name="Group 57573" transform="translate(-92 -776)">
+      <text id="Dits" transform="translate(1286 79)" fill="#fff" font-size="34" font-family="CoconNextArabic-Light, CoconÆ Next Arabic" font-weight="300"><tspan x="0" y="0">Dits</tspan></text>
+      <text id="شركة_ديتس_للبرمجيات" data-name="شركة ديتس للبرمجيات" transform="translate(1270 103)" fill="#fff" font-size="11" font-family="CoconNextArabic-Light, CoconÆ Next Arabic" font-weight="300"><tspan x="0" y="0">شركة ديتس للبرمجيات</tspan></text>
+    </g>
+  </g>
+</svg>
